@@ -1,0 +1,17 @@
+{
+    "name": "gioco-plus/obsports-contract",
+    "description": "obsports Interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "q",
+            "email": "q.wong@goldenf.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GiocoPlus\\OBSports\\": "src/"
+        }
+    }
+}
