@@ -2,7 +2,7 @@
 declare(strict_types=1);
 namespace GiocoPlus\OBSports\Contract;
 
-interface OBSportsInterface {
+interface OBSportsServiceInterface {
     /**
      * 遊戲啟動
      *
@@ -40,5 +40,4 @@ interface OBSportsInterface {
      * @return mixed
      */
     function betLogGrabberAll(int $past_minutes);
-
 }
