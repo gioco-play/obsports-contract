@@ -33,20 +33,20 @@ interface OBSportsServiceInterface {
      */
     function betLogGrabber(string $op_code, int $past_minutes, string $cache_key);
 
-//    /**
-//     * 全營商 抓取遊戲紀錄
-//     *
-//     * @param integer $past_minutes
-//     * @return mixed
-//     */
-//    function betLogGrabberAll(int $past_minutes);
-//
-//    /**
-//     * 交易失敗 訂單檢核
-//     *
-//     * @param string $op_code
-//     * @param string $order_no
-//     * @return mixed
-//     */
-//    function orderFailCheck(string $op_code, string $order_no);
+    /**
+     * 全營商 抓取遊戲紀錄
+     *
+     * @param integer $past_minutes
+     * @return mixed
+     */
+    function betLogGrabberAll(int $past_minutes);
+
+    /**
+     * 交易失敗 訂單檢核
+     *
+     * @param string $op_code
+     * @param string $order_no
+     * @return mixed
+     */
+    function orderFailCheck(string $op_code, string $order_no);
 }
